@@ -19,7 +19,7 @@ public class frame {
         driver.switchTo().defaultContent();
 //        driver.findElement(By.xpath(".//*[@id='panel-197-0-0-1']/div/div/p[2]/button")).click();
         */
-		
+		/*
         //Drag and drop
        driver.get("http://jqueryui.com/resources/demos/droppable/default.html");
         
@@ -31,7 +31,7 @@ public class frame {
         a1.dragAndDrop(e1, e2);
         a1.build().perform();/////------ performs drag and drop method
        
-        
+        */
 		//mouse hover
 		driver.get("https://www.goibibo.com/");
         WebElement e1=driver.findElement(By.xpath(".//*[@id='header']/div[1]/ul/li[10]/div"));
